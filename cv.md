@@ -97,3 +97,8 @@ Online Courses
 * Freelancer at Fiver (2022)
 
 ----
+>### Languages
+ * Uzbek native
+ * English (B2)
+ * Russian (A2)
+ * Polish basic
