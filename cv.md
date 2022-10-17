@@ -9,3 +9,9 @@
 - GitHub https://github.com/Sakhobiddin
 
 ---
+
+>### About Myself 
+
+Junior Front-End React Developer for one year. I am motivated to learn more and improve my skills in web development. My main goal is to enhance my knowledge and to be software engineer in the three years coming.
+
+---
