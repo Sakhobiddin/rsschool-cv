@@ -76,3 +76,17 @@ export default App;
 
 ````
 ----
+
+>### Education
+
+Warsaw university of Business
+
+* Faculty of Management
+
+Online Courses
+
+* Advanced javascript course (Udemy)
+* cs50 
+* FreeCodeCamp
+
+----
