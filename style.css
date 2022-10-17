@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Medium.woff2") format("woff2"),
+        url("./fonts/OpenSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("./fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("./fonts/OpenSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f5f6f7;
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2e455a;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: #2e455a;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #2e455a;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 114rem;
+    margin: 0 auto;
+}
+
+.box-outer {
+    box-shadow: 0 10px 20px -10px rgb(149 149 149 / 50%);
+    border-radius: 2rem;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+nav {
+    margin: 2rem 0;
+}
+
+nav .container {
+    padding: 3rem 4rem;
+    background-color: #ffffff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3867d6;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #ffffff;
+    width: 32%;
+    height: 100%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.avatar-box img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+aside .title {
+    margin-top: 2rem;
+}
+
+.profession {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1.5rem 0;
+    border-radius: 10rem;
+    background-color: #f5f6f7;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    color: #2e455a;
+    font-size: 2rem;
+}
+
+.social-link {
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #3867d6;
+}
+
+.social-list:not(:last-child) {
+    margin-right: 1rem;
+}
+
+aside .line {
+    border-top: 1px solid #2e455a;
+    margin: 3rem 0;
+}
+
+.contact {
+    margin-top: 3rem;
+    font-style: normal;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contact-item span {
+    font-size: 2rem;
+    color: #2e455a;
+    margin-right: 1.5rem;
+}
+
+.contact-item a,
+.contact-item p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #2e455a;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #3867d6;
+}
+
+.main-content {
+    width: 65%;
+}
+
+.main-content section {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    color: #2e455a;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.about-me p {
+    margin-bottom: 1rem;
+}
+
+.about-me a {
+    color: #3867d6;
+}
+
+.devicon-devicon-plain {
+    max-width: 2em;
+}
+
+.skill-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    font-size: 6rem;
+}
+
+.skill-list li {
+    margin: 2rem;
+}
+
+.project-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    border: 1px solid #f3f4f6;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 48%;
+    margin-bottom: 3rem;
+}
+
+.project-description {
+    margin: 1rem 0;
+}
+
+.project-description a {
+    color: #3867d6;
+}
+
+.project-item footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-item .footer-left {
+    display: flex;
+}
+
+.star,
+.fork {
+    display: flex;
+    align-items: center;
+}
+
+.star span,
+.fork span {
+    margin-right: 0.5rem;
+}
+
+.star span {
+    color: #eab308;
+}
+
+.star {
+    margin-right: 2rem;
+}
+
+.github-link {
+    display: inline-block;
+    background-color: #f3f4f6;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.edu-list {
+    margin-left: 5rem;
+    list-style: square;
+}
+
+.edu-item {
+    color: #2e455a;
+}
+
+.language-list {
+    margin-left: 5rem;
+    list-style: square;
+}
+
+.language-item {
+    color: #2e455a;
+}
+
+.language-level {
+    color: #333333;
+    font-weight: normal;
+}
+
+footer {
+    margin: 2rem 0;
+}
+
+footer .container {
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-github {
+    font-size: 6rem;
+}
+
+.footer-date {
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.footer-rsschool img {
+    width: 15rem;
+}
