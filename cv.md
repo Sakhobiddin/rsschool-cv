@@ -90,3 +90,10 @@ Online Courses
 * FreeCodeCamp
 
 ----
+
+>### Experience
+
+* Sales assistant at Carrefour Arkadia (2020)
+* Freelancer at Fiver (2022)
+
+----
