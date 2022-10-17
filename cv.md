@@ -34,3 +34,45 @@ Junior Front-End React Developer for one year. I am motivated to learn more and 
 - Creativity
 
 ---
+
+>### Code Example
+
+
+````react
+// React project online shopping store
+
+import React from "react";
+import "../Styles/App.scss";
+import { Switch, Route } from "react-router-dom";
+import HomePage from "../Pages/HomePage";
+import MenPage from "../Pages/MenPage";
+import ErrorPage from "../Pages/ErrorPage";
+import KidsPage from "../Pages/KidsPage";
+import Navbar from "./Navbar";
+
+const App = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      <Switch>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/men">
+          <MenPage />
+        </Route>
+        <Route path="/kids">
+          <KidsPage />
+        </Route>
+        <Route path="*">
+          <ErrorPage />
+        </Route>
+      </Switch>
+    </div>
+  );
+};
+
+export default App;
+
+````
+----
